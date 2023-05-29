@@ -55,7 +55,7 @@ img {
 }
 
 .container {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
@@ -308,6 +308,32 @@ img {
   letter-spacing: 0.02em;
   color: var(--text);
   text-align: center;
+}
+
+/* CUSTOMERS */
+
+.customers {
+  padding: 120px 0;
+}
+.container-customers {
+}
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--image-backround);
+}
+.customers-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.customers-item {
 }
 
 /* FOOTER */
