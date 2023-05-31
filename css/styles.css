@@ -340,7 +340,10 @@ img {
   align-items: center;
   justify-content: center;
 }
-.team-soc-link:hover:focus {
+.team-soc-link:hover {
+  background-color: var(--pressed-state);
+}
+.team-soc-link:focus {
   background-color: var(--pressed-state);
 }
 
