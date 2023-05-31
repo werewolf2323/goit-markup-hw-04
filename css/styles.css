@@ -94,9 +94,6 @@ img {
 .logo:hover {
   color: var(--pressed-state);
 }
-.logo-studio {
-  color: var(--light-backround);
-}
 .logo-studio-link {
   color: var(--image-backround);
 }
@@ -400,17 +397,67 @@ img {
   background: var(--image-backround);
   padding: 100px 0;
 }
-.closing a {
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-content {
+  margin-right: 120px;
+}
+.logo-ft {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pimary-brand);
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.logo-ft:hover {
+  color: var(--pressed-state);
+}
+.logo-studio {
+  color: var(--light-backround);
+}
 .paragraph-ft {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
   max-width: 264px;
+}
+.footer-scl {
+}
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-scl-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-scl-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-scl-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--pimary-brand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-scl-link:hover,
+.footer-scl-link:focus {
+  background-color: #31d0aa;
 }
 
 /* MAIN PORTFOLIO */
