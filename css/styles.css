@@ -343,6 +343,9 @@ img {
 .team-soc-link:focus {
   background-color: var(--pressed-state);
 }
+.team-icon {
+  fill: #f4f4fd;
+}
 
 /* CUSTOMERS */
 
@@ -390,6 +393,9 @@ img {
   border-color: var(--pressed-state);
   color: var(--pressed-state);
 }
+.customers-icon {
+  fill: currentColor;
+}
 
 /* FOOTER */
 
@@ -427,6 +433,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--light-backround);
   max-width: 264px;
+}
+.footer-icon {
+  fill: #f4f4fd;
 }
 .footer-scl {
 }
